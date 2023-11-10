@@ -31,6 +31,13 @@ footer {
 ul {
     padding: 10px;
     size: 20px;
+    text-align: center;
+}
+
+li {
+    padding: 10px;
+    size: 20px;
+    text-align: center;
 }
 
 h3 {
@@ -38,12 +45,12 @@ h3 {
 }
 
 nav {
-    box-shadow: 0 0 12px -2px pink;
+    box-shadow: 0 0 12px -2px lightblue;
     position: fixed;
     left: 0;
     right: 0;
     align-items: center;
-    background-color: lightpink;
+    background-color: lightblue;
     color: aliceblue;
     height: 80px;
     padding: 10px;
@@ -68,7 +75,7 @@ textarea {
 }
 
 input[type=submit] {
-    background-color: #04AA6D;
+    background-color: pink;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -77,11 +84,24 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: pink;
 }
 
 .container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+}
+
+.connect {
+    color: whitesmoke;
+    font-size: 40px;
+    align-items: center;
+
+}
+
+.subject {
+    width: 20px;
+    height: 40px;
+
 }
