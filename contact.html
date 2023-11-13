@@ -7,15 +7,17 @@
     <title>About Me</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="javascript.js"></script>
-
+    <meta>
 </head>
 
 <body>
 
 
-    <nav>
+    <div class="header" id="myHeader">
+        <h2>Jayme Swanson</h2>
+
         <div id="logo">
-            <h1>Jayme Swanson</h1>
+
         </div>
         <div id="links>" a class="active" href="Home" </a>
 
@@ -24,8 +26,13 @@
             <a href="portfolio.html">Portfolio</a>
 
             <a href="contact.html">Contact</a>
+
+            <a href="index.html">Home</a>
+
         </div>
-    </nav>
+
+
+    </div>
     <br> </br>
     <br> </br>
     <br> </br>
@@ -45,21 +52,14 @@
             </select>
 
             <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something" style="width: 300px"
+            <textarea id="subject" class="subject" name="subject" placeholder="Write Something" style="width: 350px"
                 height="200px"></textarea>
 
             <input type="submit" value="Submit">
 
-            <div id="thank_you" style="display: none;">
-                <p>Thanks for filling up the form!</p>
-                <button type="submit">Close</button>
-            </div>
 
 
-            <div id="thank_you" style="display: none;">
-                <p>Thanks for filling up the form!</p>
-                <button type="submit">Close</button>
-            </div>
+
 
         </form>
     </div>
